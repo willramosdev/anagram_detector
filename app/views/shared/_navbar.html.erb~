@@ -1,0 +1,11 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><button class="btn btn-default"><%= link_to 'Anagram Test', new_word_path %></buttom></li>
+      <li><%= link_to 'Consulted Words List', words_path %></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to 'Readme', pages_readme_path %></li>
+    </ul>
+  </div><!-- /.container-fluid -->
+</nav>

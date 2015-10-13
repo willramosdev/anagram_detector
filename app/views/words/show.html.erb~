@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+<span style="font-size: medium; font-family: arial,helvetica,sans-serif;">
+<% @word.is_anagram %>
+
+<table class="table"> 
+  <thead>
+    <tr>
+      <th>First word</th>
+      <th>Second word</th>
+      <th>Is an anagram?</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td><%= @word.firstWord %></td>
+      <td><%= @word.secondWord %></td>
+      <td><%= @word.anagram %></td>
+     </tr>
+  </tbody>
+</table>
+
+<%= link_to 'Edit These Words', edit_word_path(@word), class: 'btn btn-default' %> 

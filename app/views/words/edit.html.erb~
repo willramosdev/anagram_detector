@@ -1,0 +1,6 @@
+
+<h1>Editing words</h1>
+<br>
+<%= render 'shared/form' %>
+
+
