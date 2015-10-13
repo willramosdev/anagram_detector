@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 # Use twitter bootstrap as sass
 gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+
 # Used test component
 gem "rspec"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
